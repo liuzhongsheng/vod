@@ -24,11 +24,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                 columns: [
                     [
                         {checkbox: true},
-                        {field: 'id', title: __('Id')},
-                        {field: 'category_id', title: __('Category_id')},
+                        {field: 'category.name', title: __('所属分类')},
                         {field: 'title', title: __('Title')},
                         {field: 'thumb_src', title: __('Thumb_src')},
-                        {field: 'video_url', title: __('Video_url'), formatter: Table.api.formatter.url},
                         {field: 'reward', title: __('Reward'), operate:'BETWEEN'},
                         {field: 'free_hours', title: __('Free_hours')},
                         {field: 'visitor_volume', title: __('Visitor_volume')},
@@ -36,20 +34,6 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'status', title: __('Status'), searchList: {"未上架":__('Status 未上架'),"已下架":__('Status 已下架')}, formatter: Table.api.formatter.status},
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         {field: 'updatetime', title: __('Updatetime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
-                        {field: 'category.id', title: __('Category.id')},
-                        {field: 'category.pid', title: __('Category.pid')},
-                        {field: 'category.type', title: __('Category.type')},
-                        {field: 'category.name', title: __('Category.name')},
-                        {field: 'category.nickname', title: __('Category.nickname')},
-                        {field: 'category.flag', title: __('Category.flag'), operate:'FIND_IN_SET', formatter: Table.api.formatter.label},
-                        {field: 'category.image', title: __('Category.image'), events: Table.api.events.image, formatter: Table.api.formatter.image},
-                        {field: 'category.keywords', title: __('Category.keywords')},
-                        {field: 'category.description', title: __('Category.description')},
-                        {field: 'category.diyname', title: __('Category.diyname')},
-                        {field: 'category.createtime', title: __('Category.createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
-                        {field: 'category.updatetime', title: __('Category.updatetime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
-                        {field: 'category.weigh', title: __('Category.weigh')},
-                        {field: 'category.status', title: __('Category.status'), formatter: Table.api.formatter.status},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]

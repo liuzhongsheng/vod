@@ -19,6 +19,7 @@ return array (
     'page' => 'Page',
     'article' => 'Article',
     'test' => 'Test',
+    '视频分类' => '视频分类',
   ),
   'configgroup' => 
   array (
