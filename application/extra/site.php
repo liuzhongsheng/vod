@@ -24,7 +24,6 @@ return array (
   'configgroup' => 
   array (
     'basic' => 'Basic',
-    'email' => 'Email',
     'dictionary' => 'Dictionary',
     'user' => 'User',
     'example' => 'Example',
