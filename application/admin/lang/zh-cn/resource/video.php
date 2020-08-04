@@ -24,5 +24,7 @@ return [
     'Category.createtime'  => '创建时间',
     'Category.updatetime'  => '更新时间',
     'Category.weigh'       => '权重',
-    'Category.status'      => '状态'
+    'Category.status'      => '状态',
+    'Vod_area'             => '地区',
+    'Vod_lang'             => '语言'
 ];

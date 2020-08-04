@@ -18,12 +18,14 @@ return array (
     'default' => 'Default',
     'page' => 'Page',
     'article' => 'Article',
-    'test' => 'Test',
+    '广告位' => '广告位',
     '视频分类' => '视频分类',
+    '分类回收站' => '分类回收站',
   ),
   'configgroup' => 
   array (
     'basic' => 'Basic',
+    'web' => '网站配置',
     'dictionary' => 'Dictionary',
     'user' => 'User',
     'example' => 'Example',
@@ -38,5 +40,9 @@ return array (
   'mail_verify_type' => '2',
   'mail_from' => '10000@qq.com',
   'local_path' => 'D:\\www\\liuzhongsheng\\public\\vod\\public\\server\\video',
+  'title' => '',
   'video_suffix' => '.mkv|.mp4|.avi|.rmvb|.rm|.asf|.divx|.mpg|.mpeg|.mpe|.wmv|.vob|.xls',
+  'logo' => '/static/images/logo.jpg',
+  'keywords' => 'vip视频,视频资源,会员视频,视频资源',
+  'description' => '釜山行2,釜山行2下载,釜山行2在线观看',
 );
