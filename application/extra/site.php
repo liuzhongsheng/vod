@@ -43,6 +43,6 @@ return array (
   'title' => '',
   'video_suffix' => '.mkv|.mp4|.avi|.rmvb|.rm|.asf|.divx|.mpg|.mpeg|.mpe|.wmv|.vob|.xls',
   'logo' => '/static/images/logo.jpg',
-  'keywords' => 'vip视频,视频资源,会员视频,视频资源',
-  'description' => '釜山行2,釜山行2下载,釜山行2在线观看',
+  'keywords' => 'vip视频,视频资源,会员视频,视频资源,好资源网,好资源,免会员电影,电影天堂',
+  'description' => '釜山行2,釜山行2下载,釜山行2在线观看,好资源网,好资源,免会员电影,电影天堂,免费看电影,高清电影',
 );
